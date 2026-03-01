@@ -701,7 +701,7 @@ img {
 }
 
 .header-btn,
-.header-actions .asgf342 {
+.header-actions .noir-connect {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -720,7 +720,7 @@ img {
 }
 
 .header-btn:hover,
-.header-actions .asgf342:hover {
+.header-actions .noir-connect:hover {
     background: var(--accent-hover);
 }
 
@@ -814,7 +814,7 @@ img {
     color: var(--accent);
 }
 
-/* Keep hero button design when main CTA buttons use only .asgf342 */
+/* Keep hero button design when main CTA buttons use only .noir-connect */
 .hero-actions #heroLoginBtn,
 .hero-actions #watchDemo {
     display: inline-flex;
@@ -2194,7 +2194,7 @@ img {
     }
     
     .header-btn,
-    .header-actions .asgf342 {
+    .header-actions .noir-connect {
         height: 32px;
         padding: 0 10px;
         font-size: 13px;
@@ -2418,7 +2418,7 @@ img {
     }
     
     .header-btn,
-    .header-actions .asgf342 {
+    .header-actions .noir-connect {
         height: 32px;
         padding: 0 10px;
         font-size: 12px;

